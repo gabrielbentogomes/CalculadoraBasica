@@ -46,7 +46,7 @@ namespace CalculadoraBasica
 
         private void button3_Click(object sender, EventArgs e)
         {
-            label1.Text = "*";
+            label1.Text = "x";
             float n1 = float.Parse(textBox1.Text);
             float n2 = float.Parse(textBox2.Text);
             float multiplicar = n1 * n2;
